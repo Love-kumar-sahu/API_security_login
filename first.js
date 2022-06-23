@@ -5,7 +5,7 @@ require('./startup/routes')(app);
 
 // process.on('uncaughtException',(ex) => {
 //     console.log('we got a error:',ex);
-// });
+// );
 
 mongoose.connect('mongodb://localhost/play')
 .then(()=>console.log('database connected....'))
